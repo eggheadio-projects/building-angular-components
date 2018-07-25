@@ -6,10 +6,10 @@ import {WidgetThree} from "../widgets/widget-three.component";
 <button (click)="onClick()">Create Template</button>
 <div #container></div>
 
-<template #template>
+<ng-template #template>
     <h2>My amazing template</h2>
     <button>My amazing button</button>
-</template>
+</ng-template>
 `
 })
 export class HomeComponent{
